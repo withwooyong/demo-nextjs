@@ -1,0 +1,140 @@
+.body {
+  background-color: #e7eff2;
+}
+#footer {
+  display: none;
+}
+
+.landing {
+  display: block;
+  position: relative;
+  max-width: 75rem;
+  margin: 0 auto;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  color: #1a1a1a;
+  text-align: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+.inner-col {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+
+  box-sizing: border-box;
+}
+
+.part-col {
+  padding: 5rem 0;
+}
+.topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border: 0.1rem solid #a0a0b6;
+  border-radius: 0.5rem;
+}
+.topic strong {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #717188;
+}
+.topic span {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.example {
+  padding: 4rem;
+}
+
+.example .eng {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.example .kr {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.example .eng span,
+.example .kr span {
+  color: #42a3ff;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0.8rem;
+  padding: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #717188;
+  border: 0.1rem solid #dfdfea;
+}
+.swiper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 5rem;
+  overflow: hidden;
+}
+.swiper-slide {
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  background: #f7f7fc;
+  box-sizing: border-box;
+}
+
+.swiper-slide .example {
+  padding: 1.6rem 0;
+  border-top: 0.1rem solid #e7e7f0;
+}
+.swiper-slide .example:first-child {
+  border: unset;
+}
+
+.swiper-pagination {
+  bottom: 0rem !important;
+  z-index: 2;
+}
+.swiper-pagination-bullet {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.5rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000;
+  width: 2.5rem;
+  border-radius: 1rem;
+}
+
+.fixed-box {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 0.1rem solid #dfdfea;
+  z-index: 10;
+}
+.fixed-box button {
+  flex-grow: 2;
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background: #fff;
+}
+.fixed-box button.btn-list {
+  flex-grow: 1;
+  border-right: 0.1rem solid #dfdfea;
+}
+.fixed-box button.btn-quiz {
+  background: #28284b;
+  color: #fff;
+}
